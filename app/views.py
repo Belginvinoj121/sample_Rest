@@ -5,4 +5,5 @@ from rest_framework.response import Response
 
 class Sample_Class(APIView):
     def post(self,request):
+        print('changed applied')
         return Response('post method called')
